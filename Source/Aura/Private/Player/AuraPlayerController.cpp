@@ -25,7 +25,39 @@ void AAuraPlayerController::CursorTrace()
 	GetHitResultUnderCursor(ECC_Visibility, false, CursorHit);
 	if(CursorHit.bBlockingHit) return;
 
-	Cast<IEnemyInterface>(CursorHit.GetActor());
+	LastActor = ThisActor;
+	// ThisActor = Cast<IEnemyInterface>(CursorHit.GetActor());
+	// 使用Tscript以后，不需要转换
+	ThisActor = CursorHit.GetActor();
+	/*
+	 * Line trace from cursor, scenarios
+	 * last = this = null
+	 * last = null, this != null
+	 * this = null, last != null
+	 * (last = this) != null
+	 * (last != this) != null
+	 */
+
+	if (LastActor == nullptr)
+	{
+		if (ThisActor != nullptr)
+		{
+			ThisActor->HighlightActor();
+		}
+	} else
+	{
+		if (ThisActor == nullptr)
+		{
+			LastActor->UnHighlightActor();
+		}else
+		{
+			if(LastActor!=ThisActor)
+			{
+				LastActor->UnHighlightActor();
+				ThisActor->HighlightActor();
+			}
+		}
+	}
 }
 
 void AAuraPlayerController::BeginPlay()

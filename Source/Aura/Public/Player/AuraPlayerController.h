@@ -33,6 +33,11 @@ private:
 	void Move(const FInputActionValue& InputActionValue);
 
 	void CursorTrace();
-	IEnemyInterface* LastActor;
-	IEnemyInterface* ThisActor;
+	// 将成员变量保存到接口 错误方法
+	// IEnemyInterface* LastActor;
+	// IEnemyInterface* ThisActor;
+
+	// 将成员变量保存到接口
+	TScriptInterface<IEnemyInterface> LastActor;
+	TScriptInterface<IEnemyInterface> ThisActor;
 };
