@@ -8,16 +8,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9268ba77-cc90-4aab-9749-9fe36f82f008" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Aura.dir/.idea/.name" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Aura.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Aura.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Character/Goblin_Slingshot/BP_Goblin_Slingshot.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Character/Goblin_Slingshot/BP_Goblin_Slingshot.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Character/Goblin_Spear/BP_Goblin_Spear.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Character/Goblin_Spear/BP_Goblin_Spear.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Maps/StartupMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Maps/StartupMap.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Aura/Aura.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Aura.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Aura/Private/Character/AuraEnemy.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Private/Character/AuraEnemy.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Aura/Private/Player/AuraPlayerController.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Private/Player/AuraPlayerController.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Aura/Public/Character/AuraEnemy.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Public/Character/AuraEnemy.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aura.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/Aura.uproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Game/BP_AuraGameMode.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Game/BP_AuraGameMode.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Aura/Aura.Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Aura.Build.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +39,7 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Uproject.Aura.executor": "Debug",
+    "Uproject.Aura.executor": "Run",
     "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -161,6 +155,7 @@
       <workItem from="1720085393249" duration="6767000" />
       <workItem from="1720409780017" duration="7301000" />
       <workItem from="1720538415501" duration="7660000" />
+      <workItem from="1720889011152" duration="2103000" />
     </task>
     <servers />
   </component>
