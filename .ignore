@@ -1,5 +1,6 @@
 /.git
 /.idea
+/.idea/*
 /.vscode
 /Content
 /Intermediate
