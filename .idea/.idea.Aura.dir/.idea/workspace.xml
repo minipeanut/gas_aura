@@ -9,8 +9,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9268ba77-cc90-4aab-9749-9fe36f82f008" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Aura.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Aura.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aura.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/Aura.uproject" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Maps/StartupMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Maps/StartupMap.umap" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +157,7 @@
       <workItem from="1721292406217" duration="6052000" />
       <workItem from="1721498204244" duration="3443000" />
       <workItem from="1721580462446" duration="2500000" />
-      <workItem from="1721965194805" duration="13363000" />
+      <workItem from="1721965194805" duration="16973000" />
     </task>
     <servers />
   </component>
