@@ -24,8 +24,15 @@ void AAuraHUD::InitOverlay(APlayerController* PC, APlayerState* PS, UAbilitySyst
 	UUserWidget* Widget = CreateWidget<UUserWidget>(GetWorld(), OverlayWidgetClass);
 	OverlayWidget = Cast<UAuraUserWidget>(Widget);
 	const FWidgetControllerParams WidgetControllerParams(PC, PS, ASC, AS);
+	// at this point the widget controller does have a valid attribute set
 	UOverlayWidgetCntroller* WidgetCntroller = GetUOverlayWidgetCntroller(WidgetControllerParams);
+	
+	// and at this point our overlay widget has its widget controller set, which means that widget controller
+	// set blueprint event will be called  at this point, that's where we can do those things like
+	// bind to the widget controllers delegates, only after this has happened
+	// should we tell the widget controller to broadcast its initial values
 	OverlayWidget->SetWidgetController(WidgetCntroller);
+	WidgetCntroller->BroadcastInitialValues();
 	Widget->AddToViewport();
 }
 
